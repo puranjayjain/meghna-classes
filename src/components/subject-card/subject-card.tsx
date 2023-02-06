@@ -19,7 +19,7 @@ export default function Component({ title, subtitle, imageSrc, imgAlt = '', info
   const imgSrcSet = `https://images.unsplash.com/${imageSrc}?auto=format&fit=crop&w=286&dpr=2 2x`;
 
   return (
-    <Card variant="outlined" sx={{ width: 320 }}>
+    <Card variant="outlined" sx={{ width: '80%', minWidth: 320 }}>
       <Typography level="h2" fontSize="md" sx={{ mb: 0.5 }}>
         {title}
       </Typography>
