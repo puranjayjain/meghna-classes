@@ -2,11 +2,13 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
 import Button from '@mui/joy/Button';
-import Typography from '@mui/joy/Typography';
 
 import Logo from './components/logo/logo';
 import Copyright from './components/copyright/copyright';
 import SubjectCard from './components/subject-card/subject-card';
+import SalientFeatures from './components/salient-features/salient-features';
+import Map from './components/map/map';
+import ContactCard from './components/contact-card/contact-card';
 
 import './app.scss';
 
@@ -20,12 +22,12 @@ function App() {
           </Grid>
           <Grid item sm={6} xs={0}></Grid>
           <Grid item sm={2} xs={12} sx={{ minWidth: 100 }} justifyContent="flex-end">
-            <Button color="warning" component="a" size="md" href="https://wa.me/+917976382056">
+            <Button color="warning" component="a" size="md" href="https://wa.me/+917976382056" sx={{ minWidth: 100 }}>
               Contact Now
             </Button>
           </Grid>
         </Grid>
-        <Grid pb={2} container spacing={1} columns={{ xs: 4, sm: 6, md: 8 }} justifyContent="center">
+        <Grid pb={2} container spacing={1} columns={{ xs: 4, sm: 6, md: 8, lg: 12 }} justifyContent="center">
           {/* next portion */}
           <Grid item xs={3}>
             <SubjectCard
@@ -60,17 +62,23 @@ function App() {
               subtitle="New Batch Starting Soon"
               imageSrc="photo-1532634993-15f421e42ec0"
               info="Classes on Alternate days"
-              fees="Rs. 2500 / month"
+              fees="Rs. 3000 / month"
             />
           </Grid>
         </Grid>
-        <Grid container spacing={2}>
+        <Grid pb={2} container spacing={1} justifyContent="center">
           {/* next portion */}
-          <Grid item xs={4}>
-            <Typography level="h5">Maths is Fun</Typography>
+          <Grid item xs={12}>
+            <SalientFeatures />
           </Grid>
-          <Grid item xs={8}>
-            normal
+        </Grid>
+        <Grid pb={2} container spacing={1} columns={{ xs: 4, sm: 6, md: 8, lg: 12 }} justifyContent="center">
+          {/* next portion */}
+          <Grid item xs={6}>
+            <Map />
+          </Grid>
+          <Grid item xs={6}>
+            <ContactCard />
           </Grid>
         </Grid>
       </Box>

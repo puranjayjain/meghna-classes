@@ -6,7 +6,7 @@ import './logo.scss';
 
 function Component() {
   return (
-    <Typography className="logo-text" level="h3">
+    <Typography className="logo-text" level="h2">
       Meghna Classes
     </Typography>
   );

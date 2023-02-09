@@ -19,11 +19,11 @@ export default function Component({ title, subtitle, imageSrc, imgAlt = '', info
   const imgSrcSet = `https://images.unsplash.com/${imageSrc}?auto=format&fit=crop&w=286&dpr=2 2x`;
 
   return (
-    <Card variant="outlined" sx={{ width: '80%', minWidth: 320 }}>
-      <Typography level="h2" fontSize="md" sx={{ mb: 0.5 }}>
+    <Card variant="outlined" sx={{ width: '80%', minWidth: 300 }}>
+      <Typography level="h1" fontSize="lg" sx={{ mb: 0.5 }}>
         {title}
       </Typography>
-      <Typography level="body2">{subtitle}</Typography>
+      <Typography level="body1">{subtitle}</Typography>
       <Alert color="info" size="sm" sx={{ position: 'absolute', top: '0.5rem', right: '0.5rem' }}>
         CBSE
       </Alert>
@@ -43,7 +43,7 @@ export default function Component({ title, subtitle, imageSrc, imgAlt = '', info
           color="warning"
           component="a"
           href="https://wa.me/+917976382056"
-          aria-label="Explore Bahamas Islands"
+          aria-label="Contact on whatsapp"
           sx={{ ml: 'auto', fontWeight: 600 }}
         >
           Contact
