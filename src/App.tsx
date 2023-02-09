@@ -21,13 +21,13 @@ function App() {
             <Logo />
           </Grid>
           <Grid item sm={6} xs={0}></Grid>
-          <Grid item sm={2} xs={12} sx={{ minWidth: 100 }} justifyContent="flex-end">
+          <Grid item sm={2} xs={12} justifyContent="flex-end">
             <Button color="warning" component="a" size="md" href="https://wa.me/+917976382056" sx={{ minWidth: 100 }}>
               Contact Now
             </Button>
           </Grid>
         </Grid>
-        <Grid pb={2} container spacing={1} columns={{ xs: 4, sm: 6, md: 8, lg: 12 }} justifyContent="center">
+        <Grid pb={2} container spacing={1} columns={{ xs: 3, sm: 6, md: 8, lg: 12 }} justifyContent="center">
           {/* next portion */}
           <Grid item xs={3}>
             <SubjectCard
