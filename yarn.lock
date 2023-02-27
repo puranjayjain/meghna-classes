@@ -2623,7 +2623,7 @@ __metadata:
     "@types/react": ^18.0.28
     "@types/react-dom": ^18.0.11
     "@vitejs/plugin-react-swc": ^3.1.0
-    npm-check-updates: ^16.7.5
+    npm-check-updates: ^16.7.9
     react: ^18.2.0
     react-dom: ^18.2.0
     sass: ^1.58.3
@@ -2904,9 +2904,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-check-updates@npm:^16.7.5":
-  version: 16.7.5
-  resolution: "npm-check-updates@npm:16.7.5"
+"npm-check-updates@npm:^16.7.9":
+  version: 16.7.9
+  resolution: "npm-check-updates@npm:16.7.9"
   dependencies:
     chalk: ^5.2.0
     cli-table: ^0.3.11
@@ -2941,7 +2941,7 @@ __metadata:
   bin:
     ncu: build/src/bin/cli.js
     npm-check-updates: build/src/bin/cli.js
-  checksum: 077d6a205dda84121ca3176f3c6c3657ce25fb403c133809b2af3bec956a64e7729f2f9051eb54a02b14867f94fb1788d499ab805d07160019dbf04b6d9b23f9
+  checksum: c6edb29999f27cb2c91e072254b327372f248f4a36da3704acd0a8cf228a5cd7904f3d6ca289dcd77ccd9b94e5bf72d4eaa095c3a477e2768b5da6044565f1c3
   languageName: node
   linkType: hard
 
